@@ -1,5 +1,5 @@
 // API configuration for iOS app
-const API_BASE_URL = 'https://your-replit-url.replit.app'; // Update with your actual Replit URL
+const API_BASE_URL = 'https://workspace.benjirichter53.repl.co';
 
 export const apiRequest = async (endpoint: string, options: RequestInit = {}) => {
   const url = `${API_BASE_URL}${endpoint}`;

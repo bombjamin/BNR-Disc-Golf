@@ -6,7 +6,9 @@ const config: CapacitorConfig = {
   appName: 'Bar None Ranch Golf',
   webDir: 'client/dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'https',
+    url: 'https://workspace.benjirichter53.repl.co',
+    cleartext: true
   },
   ios: {
     scheme: 'Bar None Ranch Golf',
