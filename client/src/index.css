@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --muted: 33 33% 74%; /* RGB(212,192,167) - custom light grey */
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --popover-foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --card: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --card-foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --primary-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --secondary: 35 88% 56%; /* #FFA726 - disc orange */
+  --secondary-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --accent: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --accent-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --destructive: 0 84% 45%; /* #D32F2F - red */
+  --destructive-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --ring: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --radius: 1rem; /* 16px */
+  
+  /* Custom golf colors */
+  --golf-green: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --disc-orange: 35 88% 56%; /* #FFA726 */
+  --dark-green: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --bright-green: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --golf-bg: 33 33% 74%; /* RGB(212,192,167) - custom light grey */
+}
+
+.dark {
+  --background: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --muted: 33 33% 74%; /* RGB(212,192,167) - custom light grey */
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --popover-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --card: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --card-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --primary-foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --secondary: 35 88% 56%;
+  --secondary-foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --accent: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --accent-foreground: 40 37% 19%; /* RGB(66,54,30) - custom dark green */
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 45 33% 90%; /* RGB(237,233,221) - custom warm white */
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-muted text-foreground;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .golf-green {
+    background-color: hsl(var(--golf-green));
+  }
+  
+  .disc-orange {
+    background-color: hsl(var(--disc-orange));
+  }
+  
+  .dark-green {
+    color: hsl(var(--dark-green));
+  }
+  
+  .bright-green {
+    background-color: hsl(var(--bright-green));
+  }
+  
+  .golf-bg {
+    background-color: hsl(var(--golf-bg));
+  }
+  
+  .text-golf-green {
+    color: hsl(var(--golf-green));
+  }
+  
+  .text-disc-orange {
+    color: hsl(var(--disc-orange));
+  }
+  
+  .text-dark-green {
+    color: hsl(var(--dark-green));
+  }
+  
+  .bg-golf-green {
+    background-color: hsl(var(--golf-green));
+  }
+  
+  .bg-disc-orange {
+    background-color: hsl(var(--disc-orange));
+  }
+  
+  .bg-golf-bg {
+    background-color: hsl(var(--golf-bg));
+  }
+  
+  .border-golf-green {
+    border-color: hsl(var(--golf-green));
+  }
+  
+  .hover\:bg-golf-green:hover {
+    background-color: hsl(var(--golf-green));
+  }
+  
+  .hover\:bg-disc-orange:hover {
+    background-color: hsl(var(--disc-orange));
+  }
+}

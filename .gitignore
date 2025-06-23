@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+.DS_Store
+
+# Environment and config
+.env
+.env.local
+.env.production
+server/public
+vite.config.ts.*
+
+# Large assets and media files
+uploads/
+attached_assets/
+ios/
+ios-simple/
+*.tar.gz
+*.zip
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.jpeg
+*.jpg
+*.png
+*.gif
+!client/public/favicon.ico
+!client/public/*.png
+!**/logo*.png
+!**/icon*.png
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
