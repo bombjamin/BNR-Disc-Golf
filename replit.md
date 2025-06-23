@@ -126,6 +126,7 @@ This is a full-stack golf score tracking application built for the Bar None Ranc
 - June 23, 2025. Phase 1 Complete: iOS app backend connectivity configured - API endpoints connected to Replit backend
 - June 23, 2025. CocoaPods successfully installed on user's Mac - iOS development environment ready
 - June 23, 2025. iOS folder updated with latest configuration - direct GitHub workflow established
+- June 23, 2025. Node.js installation required on user's Mac - complete development environment setup in progress
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.
