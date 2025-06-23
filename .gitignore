@@ -18,10 +18,17 @@ vite.config.ts.*
 # Large assets and media files
 uploads/
 attached_assets/
-ios/
 ios-simple/
 *.tar.gz
 *.zip
+
+# iOS build artifacts (but keep source files)
+ios/App/build/
+ios/App/Pods/
+ios/App/App.xcworkspace/xcuserdata/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/App/DerivedData/
 
 # Large media files
 *.mp4
