@@ -8,16 +8,16 @@
 3. **Sync to iOS**: `npx cap sync ios`
 4. **Commit and push**: `git add . && git commit -m "Update" && git push`
 5. **Pull on Mac**: `git pull` in your local repository
-6. **Test in Xcode**: Open `App.xcworkspace` and run
+6. **Test in Xcode**: Open `App.xcodeproj` and run
 
 ### Key Points:
 - **Repository URL**: Your GitHub repository URL (from Xcode clone)
-- **iOS Project Path**: `ios/App/App.xcworkspace`
+- **iOS Project Path**: `ios/App/App.xcodeproj`
 - **Bundle ID**: com.barnoneranch.golfscore
 - **App Name**: Bar None Ranch Golf
 
 ### Testing on iOS:
-1. Open `App.xcworkspace` in Xcode
+1. Open `App.xcodeproj` in Xcode
 2. Select iPhone simulator or connected device
 3. Click Run ▶️ button
 4. App launches with full native iOS features
