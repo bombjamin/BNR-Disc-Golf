@@ -6,10 +6,10 @@ Instead of downloading files, you can work directly with the iOS folder in your 
 
 ## Step 3: Navigate to iOS Project
 
-In Terminal on your Mac, navigate to your cloned GitHub repository:
+In Terminal on your Mac, navigate to your project's iOS folder:
 
 ```bash
-cd /path/to/your/BNR-Disc-Golf/ios/App
+cd "/Users/benjaminrichter/Desktop/BNR Frisbee Golf APP/BNR-Disc-Golf/ios/App"
 ```
 
 ## Step 4: Install Dependencies
