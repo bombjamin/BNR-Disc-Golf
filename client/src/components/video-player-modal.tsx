@@ -5,11 +5,7 @@ import { Button } from "@/components/ui/button";
 import { X } from "lucide-react";
 import bnrVideoCoverPath from "@assets/BNR video cover photo _1749492792717.jpg";
 
-// Utility function to detect iOS
-const isIOS = () => {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent) || 
-         (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-};
+
 
 interface VideoPlayerModalProps {
   isOpen: boolean;
@@ -37,15 +33,10 @@ export function VideoPlayerModal({ isOpen, onClose, title = "Bar None Ranch Cour
     retry: 1,
   });
 
-  // Set iOS-specific attributes for inline playback and handle video events
+  // Handle video events
   useEffect(() => {
     const video = videoRef.current;
     if (video && activeVideo) {
-      if (isIOS()) {
-        video.setAttribute('webkit-playsinline', '');
-        video.setAttribute('playsinline', '');
-      }
-
       // Reset error state when new video loads
       setVideoError(null);
 

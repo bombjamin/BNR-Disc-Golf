@@ -21,13 +21,10 @@ This is a full-stack golf score tracking application built for the Bar None Ranc
 - **File Storage**: Local file system with multer for photo/video uploads
 - **API Design**: RESTful endpoints with structured error handling
 
-### Mobile App Support
-- **Capacitor**: Hybrid mobile app framework for iOS deployment - READY FOR TESTING
-- **Native iOS Features**: Camera integration, photo gallery access, device info
+### Mobile Support
 - **PWA Features**: Service worker for offline capabilities and app-like experience
-- **iOS Optimizations**: Touch interface, status bar handling, app icons configured
-- **iOS Project**: Complete Xcode project in `/ios/` directory with 3 native plugins
-- **App Store Ready**: Bundle ID, metadata, and assets configured for submission
+- **Responsive Design**: Mobile-optimized interface with touch-friendly interactions
+- **Mobile Camera**: Web-based camera access for photo uploads using HTML5 file input
 
 ## Key Components
 
@@ -115,20 +112,7 @@ This is a full-stack golf score tracking application built for the Bar None Ranc
 
 ## Changelog
 - June 23, 2025. Initial setup
-- June 23, 2025. iOS deployment setup completed with Capacitor
-- June 23, 2025. Native iOS features added: camera, photo gallery, device integration
-- June 23, 2025. iOS app assets and configuration finalized for App Store deployment
-- June 23, 2025. iOS app successfully running in Xcode simulator - basic interface working
-- June 23, 2025. GitHub repository successfully configured - clean repository with source code only (848KB)
-- June 23, 2025. iOS project files added to GitHub repository for Xcode integration
-- June 23, 2025. Stable iOS testing environment established with GitHub integration
-- June 23, 2025. iOS CocoaPods dependency issues resolved - clean iOS project rebuilt and ready for testing
-- June 23, 2025. Phase 1 Complete: iOS app backend connectivity configured - API endpoints connected to Replit backend
-- June 23, 2025. CocoaPods successfully installed on user's Mac - iOS development environment ready
-- June 23, 2025. iOS folder updated with latest configuration - direct GitHub workflow established
-- June 23, 2025. Node.js installation required on user's Mac - complete development environment setup in progress
-- June 23, 2025. iOS project completely rebuilt with all missing files and proper configuration - deployment target updated to iOS 15.0
-- June 23, 2025. Complete iOS package created for download due to local repository sync issues - ios-complete-fixed.tar.gz ready
+- June 24, 2025. iOS app plans completely removed - application reverted to web-only deployment
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.
